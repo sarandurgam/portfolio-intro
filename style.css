@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.left-section {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.right-section img {
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.highlight {
+  color: #9be22d;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.role {
+  font-size: 18px;
+  color: #bbb;
+}
+
+.contact p {
+  margin: 8px 0;
+}
+
+a {
+  color: #9be22d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #9be22d;
+  color: #000;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #7cc01d;
+}
+
+.social-icons a {
+  margin-right: 15px;
+  font-weight: bold;
+}
